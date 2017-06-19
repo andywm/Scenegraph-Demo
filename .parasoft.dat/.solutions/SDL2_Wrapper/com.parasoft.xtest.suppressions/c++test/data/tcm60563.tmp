@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Assets/Formats/Raw/material.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Initialisation lists have nothing to do with order of initialisation, therefore chosen order is for readability.</Reason>
+         <User>468827</User>
+         <Date>1485127272442</Date>
+         <Message>List members in an initialization list should be in the order in which they are declared ['mDiffuse', 'mAmbient', 'mSpecular', 'mSpecularExponent']</Message>
+         <Severity>3</Severity>
+         <RuleId>INIT-10</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

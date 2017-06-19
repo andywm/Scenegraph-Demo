@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/World/Objects/ViewsAndLights/so_camera.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>The compiler does not guarantee to initialise members in compliance with the order specified in an initialisation list. Therefore, I listed them in what I believe to be the most readable order, not the declared order.</Reason>
+         <User>468827</User>
+         <Date>1484570714284</Date>
+         <Message>List members in an initialization list should be in the order in which they are declared ['Base', 'rotRate', 'linRate', 'linMultiplier', 'rotMultiplier', 'mMode', 'mAspectRatio', 'pitch', 'yaw', 'mObjectFocus']</Message>
+         <Severity>3</Severity>
+         <RuleId>INIT-10</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

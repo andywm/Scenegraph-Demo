@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Assets/Registry.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>asset is a reference to member data, which is manipulated by this method. Therefore the method being declared as const would be misleading</Reason>
+         <User>468827</User>
+         <Date>1484570167297</Date>
+         <Message>Declare parameter 'asset' as const</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-53</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Assets/Registry.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>asset is a reference to member data, which is manipulated by this method. Therefore the method being declared as const would be misleading</Reason>
+         <User>468827</User>
+         <Date>1484570195323</Date>
+         <Message>Member function 'loadArchtypeAsset' should be declared as const</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-54</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

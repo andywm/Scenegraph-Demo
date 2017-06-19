@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/RenderPasses/Passes/master.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>For this to work, it must be passed by value (both to satisfy other objects that will use it, and to ensure that the refcount is incrimented). Passing by reference would require a significant rework of this class hierachy.</Reason>
+         <User>468827</User>
+         <Date>1485155285026</Date>
+         <Message>The parameter 'shdrs' of function 'Master' is passed by value</Message>
+         <Severity>3</Severity>
+         <RuleId>OPT-14</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

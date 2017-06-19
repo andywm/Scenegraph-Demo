@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Utilities/animation.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Cannot be made const, function is assigned to a function pointer, and therefore must have a template matching the other functions; it cannot have a special allowance</Reason>
+         <User>468827</User>
+         <Date>1485126639168</Date>
+         <Message>Declare parameter 'lRot' in 'oper_none' function as reference to const object</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-43</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Utilities/animation.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Cannot be made const, function is assigned to a function pointer, and therefore must have a template matching the other functions; it cannot have a special allowance</Reason>
+         <User>468827</User>
+         <Date>1485126622514</Date>
+         <Message>Declare parameter 'lRot' as const</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-53</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

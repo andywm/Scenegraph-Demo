@@ -1,0 +1,7 @@
+model:hull:submarine.obj
+model:prop:prop.obj
+material:hull:submarine.material
+material:prop:prop.material
+model:particle:particle.obj
+material:particle:particle.material
+archtype:explorer:archtype.txt

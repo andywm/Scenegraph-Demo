@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Assets/Formats/Raw/mesh.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>static_cast, dynamic_cast and reinterpret cast are not viable alternatives. Therefore this C style cast must be used in their stead.</Reason>
+         <User>468827</User>
+         <Date>1485129054988</Date>
+         <Message>C-style cast is used</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-11</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

@@ -1,0 +1,5 @@
+model:hull:submarine.obj
+model:oar:oar.obj
+material:hull:submarine.material
+material:oar:submarine.material
+archtype:drebbel:archtype.txt

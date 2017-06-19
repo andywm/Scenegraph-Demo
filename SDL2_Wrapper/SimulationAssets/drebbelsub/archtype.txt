@@ -1,0 +1,7 @@
+master:scale:0,0,0
+
+oar_aft_star:offset:-2,0,-2.1:orientation:0,1.57,0:scale:0,0,0
+oar_aft_port:offset:-2,0,2.1:orientation:0,-1.57,0:scale:0,0,0
+
+oar_fwd_star:offset:2,0,-2.1:orientation:0,1.57,0:scale:0,0,0
+oar_fwd_port:offset:2,0,2.1:orientation:0,-1.57,0:scale:0,0,0

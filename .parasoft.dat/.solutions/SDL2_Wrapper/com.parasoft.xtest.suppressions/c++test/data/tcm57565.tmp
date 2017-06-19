@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/d3d_context.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Out of my control. C api</Reason>
+         <User>468827</User>
+         <Date>1485125855795</Date>
+         <Message>C-style cast is used</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-11</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/d3d_context.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Initialisation lists have nothing to do with order of initialisation, therefore chosen order is for readability.</Reason>
+         <User>468827</User>
+         <Date>1485127261968</Date>
+         <Message>List members in an initialization list should be in the order in which they are declared ['mAssets', 'cmMaxRenderTargets', 'mDevice', 'mContext', 'mSwapChain']</Message>
+         <Severity>3</Severity>
+         <RuleId>INIT-10</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/d3d_context.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>The compiler does not guarantee to initialise members in compliance with the order specified in an initialisation list. Therefore, I listed them in what I believe to be the most readable order, not the declared order.</Reason>
+         <User>468827</User>
+         <Date>1484570689139</Date>
+         <Message>List members in an initialization list should be in the order in which they are declared ['mRTVallocFrom', 'mAssets', 'cmMaxRenderTargets', 'mDevice', 'mContext', 'mSwapChain']</Message>
+         <Severity>3</Severity>
+         <RuleId>INIT-10</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

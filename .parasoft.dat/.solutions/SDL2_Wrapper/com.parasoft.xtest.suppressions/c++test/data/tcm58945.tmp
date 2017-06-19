@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Window/window_manager.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>This implements the singleton pattern, the constructor disallows assignment after one instance is created, realistically there is no way the address of this can change without some form of memory corruption.</Reason>
+         <User>468827</User>
+         <Date>1485121512320</Date>
+         <Message>Reference '' to an object whose address can be changed</Message>
+         <Severity>1</Severity>
+         <RuleId>INIT-05</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

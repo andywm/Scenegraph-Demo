@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/World/Objects/Additional/so_scenery.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>These are default virtual destructors. It makes no sense to needlessly, and explictly define their bodies in the main source file.</Reason>
+         <User>468827</User>
+         <Date>1485153893593</Date>
+         <Message>Function '~Scenery' is both virtual and inline</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-25</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

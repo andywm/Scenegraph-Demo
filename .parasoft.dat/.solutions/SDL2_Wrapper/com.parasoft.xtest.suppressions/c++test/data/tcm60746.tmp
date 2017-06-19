@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/RenderPasses/Stages/stage_base.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>There is literally no other way to implement this in any sane manner. </Reason>
+         <User>468827</User>
+         <Date>1485154459855</Date>
+         <Message>Protected member function 'sceneState' returns non-const handles to private member data: 'mSceneState'</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-12</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/RenderPasses/Stages/stage_base.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>There is literally no other way to implement this in any sane manner. </Reason>
+         <User>468827</User>
+         <Date>1485154514366</Date>
+         <Message>Protected member function 'sceneState' returns non-const handles to private member data: 'mSceneState'</Message>
+         <Severity>3</Severity>
+         <RuleId>MISRA2008-9_3_2_a</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/RenderPasses/Stages/stage_base.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>All of these are default virtual destructors, it makes no sense for them to be explicitly defined in the source. That defaults the purpose of the default keyword and harms readability.</Reason>
+         <User>468827</User>
+         <Date>1485127589453</Date>
+         <Message>Function '~Base' is both virtual and inline</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-25</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

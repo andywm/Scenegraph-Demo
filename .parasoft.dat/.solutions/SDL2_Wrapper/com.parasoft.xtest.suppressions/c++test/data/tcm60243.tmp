@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/GPU_Assets/d3d_shaders.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Out of my control. C api</Reason>
+         <User>468827</User>
+         <Date>1485126199871</Date>
+         <Message>C-style cast is used</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-11</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{ae8db951-98fc-4574-b11b-76ca13e52dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{84def15d-aa9a-4d2a-993d-12e6c56820de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{857fa42d-1cff-4bb4-8ac0-b74075af4367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{a0c53b2d-d656-4146-988b-f28f1c5ef8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{a03a02ec-0229-4cb0-9f74-414a04d3e343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{2763ab5e-5e0a-41aa-9c4c-ee39f95f7b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{3462968f-c31a-4d97-aeb3-fb21a90c40a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{a71e3869-3260-417d-a45d-9017066ddb08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\GPU_Assets">
+      <UniqueIdentifier>{5ddc77d5-917c-44cc-9f02-a1787426cb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\GPU_Assets">
+      <UniqueIdentifier>{20daaa4d-34cb-454b-a6b8-74581c358300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\RenderPasses">
+      <UniqueIdentifier>{04f29d6d-fe12-480a-9a1f-90e0de6b6b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\RenderPasses\Stages">
+      <UniqueIdentifier>{cb9eb3c9-3336-43df-8931-6e6453932912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\RenderPasses\Passes">
+      <UniqueIdentifier>{4ff063f3-2a60-44b1-9680-d6fe72bb0b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\RenderPasses">
+      <UniqueIdentifier>{d419c3a5-ecef-4025-8eea-2675771aab0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\RenderPasses\Stages">
+      <UniqueIdentifier>{3af41d72-5310-468e-9ce7-73f7622f3640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\RenderPasses\Passes">
+      <UniqueIdentifier>{bb9ffeeb-d928-40a5-9f12-d3a974ff395b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\Scene">
+      <UniqueIdentifier>{c987496d-1620-4c78-b8f0-0d156e975f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Scene">
+      <UniqueIdentifier>{95166207-a31a-43d4-a9e5-12a002f1b480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Scene\Graph">
+      <UniqueIdentifier>{5d96daaf-86a7-4f97-8f0b-db0db3c77478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\Scene\Graph">
+      <UniqueIdentifier>{2c038d20-8572-47fb-bc55-e73e2198e847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\Scene\Graph\Visitors">
+      <UniqueIdentifier>{0bb7baf8-3abf-47b0-a1b6-9daf86bfa020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Scene\Graph\Visitors">
+      <UniqueIdentifier>{a567a2a3-eb9b-4bfd-9072-25dc051050ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assets">
+      <UniqueIdentifier>{3bb0bc4d-3652-45dd-9d1c-aa4f1c954860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets">
+      <UniqueIdentifier>{e81a23c0-7ba0-4132-851e-8eab7992ce48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Formats">
+      <UniqueIdentifier>{e838f790-864e-4e71-8bf1-e5238817fdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assets\Formats">
+      <UniqueIdentifier>{054b7bb9-ceae-48bf-9618-4abed372ddaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Objects">
+      <UniqueIdentifier>{27baa67c-bd20-4910-a95c-2329636720ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Objects\Include">
+      <UniqueIdentifier>{b82a1f77-f44e-4e5d-9f5b-1cbcdbd354a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Objects">
+      <UniqueIdentifier>{129977fb-e714-4658-91e0-96aa45e790d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Objects\Agents">
+      <UniqueIdentifier>{6108bf09-5da7-4245-b92f-49173dc2a71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Objects\Additional">
+      <UniqueIdentifier>{b7b45365-4ab2-4386-bbaf-877683595fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Objects\ViewsAndLights">
+      <UniqueIdentifier>{2bc6af36-b7c1-45b6-9f38-257926f4b666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Objects\Agents">
+      <UniqueIdentifier>{28d8d2d9-f7da-43cd-af98-a83ffa2cf64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Objects\Additional">
+      <UniqueIdentifier>{eb4032c4-919a-4c5e-bafd-ed0c14a87348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Objects\ViewsAndLights">
+      <UniqueIdentifier>{3c53d59d-fda5-4cb9-be95-ac9dc00a5a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Objects\Agents\Abstract">
+      <UniqueIdentifier>{bdd3002e-5234-424e-a243-1928bab95474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Objects\Agents\Abstract">
+      <UniqueIdentifier>{a042c0a2-3122-4edb-9db5-f739b1f99a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assets\Formats\Raw">
+      <UniqueIdentifier>{f70eaceb-ea45-4f51-a276-b00b015fda7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assets\Formats\Configs">
+      <UniqueIdentifier>{5ee1c7dc-bc18-4177-8cf0-82615fd9628d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Formats\Raw">
+      <UniqueIdentifier>{c4fff114-e1cc-4202-a74c-93058bfa0746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assets\Formats\Configs">
+      <UniqueIdentifier>{8f0a63db-061c-41ab-a1b4-fe74ba490ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\RenderPasses\Passes\Base">
+      <UniqueIdentifier>{01d5cec0-c7e4-419d-a777-8d899098fe75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window_manager.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="window_archtype.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_window.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_shaders.cpp">
+      <Filter>Source Files\Render\GPU_Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_gpu_geometry.cpp">
+      <Filter>Source Files\Render\GPU_Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_context.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\Assets\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_pipeline_state.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>Source Files\Render\RenderPasses\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="master.cpp">
+      <Filter>Source Files\Render\RenderPasses\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Render\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render_state.cpp">
+      <Filter>Source Files\Render\RenderPasses</Filter>
+    </ClCompile>
+    <ClCompile Include="associative_language_parser.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="sg_geometry.cpp">
+      <Filter>Source Files\Render\Scene\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="sg_group.cpp">
+      <Filter>Source Files\Render\Scene\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="sg_xform.cpp">
+      <Filter>Source Files\Render\Scene\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="sg_base.cpp">
+      <Filter>Source Files\Render\Scene\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_pass.cpp">
+      <Filter>Source Files\Render\RenderPasses\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="v_dfs.cpp">
+      <Filter>Source Files\Render\Scene\Graph\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="v_linearise.cpp">
+      <Filter>Source Files\Render\Scene\Graph\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_context_resources.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="enforce_default.cpp">
+      <Filter>Source Files\Render\RenderPasses\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="set_shader.cpp">
+      <Filter>Source Files\Render\RenderPasses\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="uv_sphere_generator.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="sg_camera.cpp">
+      <Filter>Source Files\Render\Scene\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="v_orphanise.cpp">
+      <Filter>Source Files\Render\Scene\Graph\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="v_transform_wrt_world.cpp">
+      <Filter>Source Files\Render\Scene\Graph\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="v_injector.cpp">
+      <Filter>Source Files\Render\Scene\Graph\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="so_drebbel.cpp">
+      <Filter>Source Files\World\Objects\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="so_explorer.cpp">
+      <Filter>Source Files\World\Objects\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="so_sealife.cpp">
+      <Filter>Source Files\World\Objects\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="so_animated_part.cpp">
+      <Filter>Source Files\World\Objects\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="so_scenery.cpp">
+      <Filter>Source Files\World\Objects\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="so_camera.cpp">
+      <Filter>Source Files\World\Objects\ViewsAndLights</Filter>
+    </ClCompile>
+    <ClCompile Include="perspective_view.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="so_light_source.cpp">
+      <Filter>Source Files\World\Objects\ViewsAndLights</Filter>
+    </ClCompile>
+    <ClCompile Include="so_base.cpp">
+      <Filter>Source Files\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="so_ai_entity.cpp">
+      <Filter>Source Files\World\Objects\Agents\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="archtype.cpp">
+      <Filter>Source Files\Assets\Formats\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Source Files\Assets\Formats\Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Assets\Formats\Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_shader.cpp">
+      <Filter>Source Files\Assets\Formats\Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="a_world.cpp">
+      <Filter>Source Files\Assets\Formats\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_texture.cpp">
+      <Filter>Source Files\Render\GPU_Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Source Files\Assets\Formats\Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="p_base.cpp">
+      <Filter>Source Files\Render\RenderPasses\Passes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_pump.cpp">
+      <Filter>Source Files\World\Objects\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Source Files\World\Objects\Additional</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window_manager.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="window_archtype.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_window.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_gpu_geometry.h">
+      <Filter>Header Files\Render\GPU_Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_shaders.h">
+      <Filter>Header Files\Render\GPU_Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\Assets\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_context.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_pipeline_state.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>Header Files\Render\RenderPasses\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_base.h">
+      <Filter>Header Files\Render\RenderPasses\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="pass_base.h">
+      <Filter>Header Files\Render\RenderPasses\Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="master.h">
+      <Filter>Header Files\Render\RenderPasses\Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Render\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="render_state.h">
+      <Filter>Header Files\Render\RenderPasses</Filter>
+    </ClInclude>
+    <ClInclude Include="associative_language_parser.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="sg_base.h">
+      <Filter>Header Files\Render\Scene\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="sg_group.h">
+      <Filter>Header Files\Render\Scene\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="sg_xform.h">
+      <Filter>Header Files\Render\Scene\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="sg_geometry.h">
+      <Filter>Header Files\Render\Scene\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="visitor_base.h">
+      <Filter>Header Files\Render\Scene\Graph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_graph.h">
+      <Filter>Header Files\Render\Scene\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry_stage.h">
+      <Filter>Header Files\Render\RenderPasses\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="v_dfs.h">
+      <Filter>Header Files\Render\Scene\Graph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="v_linearise.h">
+      <Filter>Header Files\Render\Scene\Graph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="set_shader.h">
+      <Filter>Header Files\Render\RenderPasses\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="enforce_default.h">
+      <Filter>Header Files\Render\RenderPasses\Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="uv_sphere_generator.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="sg_camera.h">
+      <Filter>Header Files\Render\Scene\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="v_orphanise.h">
+      <Filter>Header Files\Render\Scene\Graph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="v_trans_wrt_world.h">
+      <Filter>Header Files\Render\Scene\Graph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="v_injector.h">
+      <Filter>Header Files\Render\Scene\Graph\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="so_base.h">
+      <Filter>Header Files\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="so_includes.h">
+      <Filter>Header Files\World\Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="so_animated_part.h">
+      <Filter>Header Files\World\Objects\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="so_drebbel.h">
+      <Filter>Header Files\World\Objects\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="so_explorer.h">
+      <Filter>Header Files\World\Objects\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="so_sealife.h">
+      <Filter>Header Files\World\Objects\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="so_camera.h">
+      <Filter>Header Files\World\Objects\ViewsAndLights</Filter>
+    </ClInclude>
+    <ClInclude Include="so_scenery.h">
+      <Filter>Header Files\World\Objects\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="perspective_view.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="so_ai_entity.h">
+      <Filter>Header Files\World\Objects\Agents\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="so_light_source.h">
+      <Filter>Header Files\World\Objects\ViewsAndLights</Filter>
+    </ClInclude>
+    <ClInclude Include="sys_shader.h">
+      <Filter>Header Files\Assets\Formats\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\Assets\Formats\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Header Files\Assets\Formats\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="archtype.h">
+      <Filter>Header Files\Assets\Formats\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="a_world.h">
+      <Filter>Header Files\Assets\Formats\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="a_asset_pack.h">
+      <Filter>Header Files\Assets\Formats\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_texture.h">
+      <Filter>Header Files\Render\GPU_Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\Assets\Formats\Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="random_number.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="so_particles.h">
+      <Filter>Header Files\World\Objects\Additional</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SimulationAssets\Shaders\fragment.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="SimulationAssets\Shaders\vertex.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="SimulationAssets\Shaders\fragment_normals.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

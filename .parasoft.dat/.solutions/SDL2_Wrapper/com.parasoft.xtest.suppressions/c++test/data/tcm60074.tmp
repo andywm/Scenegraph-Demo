@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/d3d_context.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>There is no good way to get around this. Parasoft complains if passed by value, or by reference. It is necessary for this data to be passed. So const reference it is.</Reason>
+         <User>468827</User>
+         <Date>1485156032216</Date>
+         <Message>Public member function 'swapChain' returns non-const handles to member data: 'mSwapChain'</Message>
+         <Severity>3</Severity>
+         <RuleId>MISRA2008-9_3_2_b</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/d3d_context.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>This is intentional, as a reference the object cannot be assigned to - the class provides no public members only methods, it is intended as an interface.</Reason>
+         <User>468827</User>
+         <Date>1485125212149</Date>
+         <Message>Public member function 'pipeline' returns non-const handles to member data: 'mPipeline'</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-36</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/d3d_context.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>This is by design, the returned item is an interface object.</Reason>
+         <User>468827</User>
+         <Date>1485154534917</Date>
+         <Message>Public member function 'pipeline' returns non-const handles to member data: 'mPipeline'</Message>
+         <Severity>3</Severity>
+         <RuleId>MISRA2008-9_3_2_b</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/d3d_context.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>There is no good way to get around this. Parasoft complains if passed by value, or by reference. It is necessary for this data to be passed. So const reference it is.</Reason>
+         <User>468827</User>
+         <Date>1485156554611</Date>
+         <Message>Public member function 'swapChain' returns non-const handles to member data: 'mSwapChain'</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-36</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

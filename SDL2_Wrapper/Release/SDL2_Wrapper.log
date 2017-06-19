@@ -1,0 +1,8 @@
+﻿  v_transform_wrt_world.cpp
+  Generating code
+  21 of 4773 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SDL2_Wrapper.vcxproj -> C:\Student\d3d32\RealTimeGraphicsACW\Release\SDL2_Wrapper.exe
+  SDL2_Wrapper.vcxproj -> C:\Student\d3d32\RealTimeGraphicsACW\Release\SDL2_Wrapper.pdb (Full PDB)

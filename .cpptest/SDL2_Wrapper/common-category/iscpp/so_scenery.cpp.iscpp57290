@@ -1,0 +1,6 @@
+fileName=C:\Student\d3d32\RealTimeGraphicsACW\SDL2_Wrapper\so_scenery.cpp
+isCpp=
+compilerOpts=-I"C:\Program Files (x86)\Parasoft\C++test for Visual Studio\9.6\engine\runtime\include" /Zi /W3 /O2 /EHsc /MD /fp:precise /Gd /GS /Oi /Oy- /Gm- /Gy /DWIN32 /DNDEBUG /D_WINDOWS /D_UNICODE /DUNICODE /Zc:wchar_t /Zc:forScope /Zc:inline /WX- /nologo -DPARASOFT_CPPTEST -I.
+compilerId=vc_14_0
+workingDir=C:\Student\d3d32\RealTimeGraphicsACW\SDL2_Wrapper\
+advancedOptionsHash=0

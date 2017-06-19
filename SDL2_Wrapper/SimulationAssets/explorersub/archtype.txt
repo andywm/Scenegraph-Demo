@@ -1,0 +1,4 @@
+master:scale:0,0,0
+
+prop:offset:-10,0,0:orientation:0,0,0:scale:0,0,0
+pump:offset:-15,0,0:orientation:0,0,0:scale:0,0,0

@@ -1,0 +1,5 @@
+model:fish:fish.obj
+material:fish:fish.material
+model:fin:fin.obj
+material:fin:fish.material
+archtype:sealife:archtype.txt

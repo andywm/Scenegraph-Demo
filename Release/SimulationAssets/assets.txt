@@ -1,0 +1,6 @@
+worldconf:world.conf
+shaders:shaders
+simobj:drebbelsub
+simobj:explorersub
+simobj:sealife
+simobj:sphere

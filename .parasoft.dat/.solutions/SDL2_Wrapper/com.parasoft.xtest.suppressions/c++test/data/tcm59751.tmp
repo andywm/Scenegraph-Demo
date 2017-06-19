@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/Scene/Graph/Visitors/v_orphanise.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>The class SG_Base has a private, externally unchangable, member called identiy, identity is an enum that specifies what type the base class really is. This member is used to ensure the correct cast is made.</Reason>
+         <User>468827</User>
+         <Date>1485123207044</Date>
+         <Message>Cast from polymorphic class 'SGBase' to derived class 'Group'</Message>
+         <Severity>1</Severity>
+         <RuleId>OOP-49</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/Scene/Graph/Visitors/v_orphanise.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>The class SG_Base has a private, externally unchangable, member called identiy, identity is an enum that specifies what type the base class really is. This member is used to ensure the correct cast is made.</Reason>
+         <User>468827</User>
+         <Date>1485123233938</Date>
+         <Message>Cast from class 'SGBase' to derived class 'Group'</Message>
+         <Severity>2</Severity>
+         <RuleId>OOP-35</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

@@ -1,0 +1,4 @@
+master:scale:0,0,0
+
+left_fin:offset:3.5,-0.5,1:orientation:0,0,3.14:scale:0,0,0
+right_fin:offset:3.5,-0.5,-1:orientation:0,0,3.14:scale:0,0,0

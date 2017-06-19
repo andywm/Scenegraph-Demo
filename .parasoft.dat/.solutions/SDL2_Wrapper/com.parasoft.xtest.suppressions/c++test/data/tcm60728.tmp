@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/World/Objects/ViewsAndLights/so_camera.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>All of these are default virtual destructors, it makes no sense for them to be explicitly defined in the source. That defaults the purpose of the default keyword and harms readability.</Reason>
+         <User>468827</User>
+         <Date>1485127589453</Date>
+         <Message>Function '~Camera' is both virtual and inline</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-25</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

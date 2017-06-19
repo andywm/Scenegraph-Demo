@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Header Files/Render/Scene/Graph/sg_base.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>This is intentional, the alternative of not using this language feature and explicitly declaring this in a .cpp file is silly.</Reason>
+         <User>468827</User>
+         <Date>1484568052787</Date>
+         <Message>Function '~SGBase' is both virtual and inline</Message>
+         <Severity>3</Severity>
+         <RuleId>OOP-25</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

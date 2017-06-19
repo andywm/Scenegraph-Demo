@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/World/Objects/Agents/so_explorer.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Doing this assignment in the initialisation would be a poor choice as it must be programmatically configured before it is initialised.</Reason>
+         <User>468827</User>
+         <Date>1485157904951</Date>
+         <Message>Assignment in constructor 'ExplorerSub' found. Use constructor initialization list instead</Message>
+         <Severity>5</Severity>
+         <RuleId>INIT-14</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Render/Scene/Scene.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Since the order in an initialisation list isn't related to the order stuff is actually initialised in. I value readability over this rule, therefore variables are declared in the order I find most readable.</Reason>
+         <User>468827</User>
+         <Date>1485171735977</Date>
+         <Message>List members in an initialization list should be in the order in which they are declared ['mSpecialRenderMode', 'mShowStatistics', 'mBackground', 'mSceneRoot', 'mActiveCamera']</Message>
+         <Severity>3</Severity>
+         <RuleId>INIT-10</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

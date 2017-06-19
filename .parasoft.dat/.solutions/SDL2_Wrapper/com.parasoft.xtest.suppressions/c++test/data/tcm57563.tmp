@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Utilities/animation.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>The compiler does not guarantee to initialise members in compliance with the order specified in an initialisation list. Therefore, I listed them in what I believe to be the most readable order, not the declared order.</Reason>
+         <User>468827</User>
+         <Date>1484570677036</Date>
+         <Message>List members in an initialization list should be in the order in which they are declared ['mX', 'mY', 'mZ', 'cmXAxis', 'cmYAxis', 'cmZAxis']</Message>
+         <Severity>3</Severity>
+         <RuleId>INIT-10</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Utilities/animation.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>Method calls function  that implictly modifies member data. Therefore cannot be declared const.</Reason>
+         <User>468827</User>
+         <Date>1484571117781</Date>
+         <Message>Member function 'frame' should be declared as const</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-54</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="SDL2_Wrapper/SDL2_Wrapper/Source Files/Utilities/animation.cpp" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>static function is assigned as a function point to an alias. It cannot have a unique prototype to the others.</Reason>
+         <User>468827</User>
+         <Date>1484571201859</Date>
+         <Message>Declare parameter 'lRot' as const</Message>
+         <Severity>3</Severity>
+         <RuleId>CODSTA-CPP-53</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

@@ -1,0 +1,2 @@
+model:sphere:sphere.obj
+material:sphere:sphere.material
